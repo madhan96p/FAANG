@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1735878317824
+current_stage: None
+description: null
+last_updated_timestamp: 1735878317824
+name: BestStockModel
+run_id: v1
+run_link: null
+source: runs:/<RUN_ID>/RandomForestModel
+status: READY
+status_message: null
+storage_location: runs:/<RUN_ID>/RandomForestModel
+user_id: null
+version: 1
