@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 
 # Define the dataset paths for each ticker
 datasets = {
-    'AMZN - Amazon': r'C:\Users\Windows 11\OneDrive\Desktop\FAANG\FAANG_CSV\amazon_data.csv',
-    'AAPL - Apple': r'C:\Users\Windows 11\OneDrive\Desktop\FAANG\FAANG_CSV\apple_data.csv',
-    'GOOGL - Google': r'C:\Users\Windows 11\OneDrive\Desktop\FAANG\FAANG_CSV\google_data.csv',
-    'NFLX - Netflix': r'C:\Users\Windows 11\OneDrive\Desktop\FAANG\FAANG_CSV\netflix_data.csv',
-    'META - Facebook': r'C:\Users\Windows 11\OneDrive\Desktop\FAANG\FAANG_CSV\facebook_data.csv',
+    'AMZN - Amazon': r'https://raw.githubusercontent.com/madhan96p/FAANG/refs/heads/main/FAANG_CSV/amazon_data.csv',
+    'AAPL - Apple': r'https://raw.githubusercontent.com/madhan96p/FAANG/refs/heads/main/FAANG_CSV/apple_data.csv',
+    'GOOGL - Google': r'https://raw.githubusercontent.com/madhan96p/FAANG/refs/heads/main/FAANG_CSV/google_data.csv',
+    'NFLX - Netflix': r'https://raw.githubusercontent.com/madhan96p/FAANG/refs/heads/main/FAANG_CSV/netflix_data.csv',
+    'META - Facebook': r'https://raw.githubusercontent.com/madhan96p/FAANG/refs/heads/main/FAANG_CSV/facebook_data.csv',
 }
 
 # Title Section
