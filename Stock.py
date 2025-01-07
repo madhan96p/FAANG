@@ -17,7 +17,12 @@ st.markdown("<center><h1>FAANG Stock Market</h1></center>",True)
 
 marquee_data = ""
 for stock, ticker in datasets.items():
-    latest_stock_data = pd.read_csv(ticker)
+    try:
+        latest_stock_data = pd.read_csv(ticker)
+    except FileNotFoundError:
+        print(f"File not found: {ticker}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
     stock = latest_stock_data['Company'][0]
     latest_stock_data['Date'] = pd.to_datetime(latest_stock_data['Date'])
     latest_stock_data['Date'] = latest_stock_data['Date'].dt.strftime('%d-%m-%Y')
